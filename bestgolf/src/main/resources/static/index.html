@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GolfRezervation</title>
+</head>
+<body>
+	<form action="/action/doRezervation">
+	<select name="golfer">
+		<option value="">=== vyber golfistu ===</option>
+		<option value="ambroz">Michal Ambrož</option>
+		<option value="koukol">Jiří Koukol</option>
+	</select>
+	<select name="golfcourse">
+		<option value="">=== vyber hřiště ===</option>
+		<option value="1">Hodkovičky (1)</option>
+		<option value="2">Botanika (2)</option>
+		<option value="3">Předboj (3)</option>
+		<option value="4">Beřovice (4)</option>
+		<option value="9">Molitorov (9)</option>
+		<option value="11">Štiřín (11)</option>
+		<option value="12">Mstětice (12)</option>
+		<option value="13">Lázně Bohdaneč (13)</option>
+		<option value="14">Motol (14)</option>
+		<option value="15">Terezín (15)</option>
+		<option value="16">Stará Boleslav (16)</option>
+	</select>
+	<select name="position">
+		<option value="">=== vyber pozici ===</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+	</select>
+	<select name="days">
+		<option value="0">dnes</option>
+		<option value="2">zitra</option>
+		<option value="2">+2 dni</option>
+		<option value="3" selected="selected">+3 dni</option>
+		<option value="4">+4 dni</option>
+		<option value="5">+5 dní</option>
+		<option value="6">+6 dní</option>
+		<option value="7">+7 dní</option>
+	</select>
+	<button type="submit">Hrajem</button>
+	</form>
+</body>
+</html>
